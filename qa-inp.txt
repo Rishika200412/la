@@ -1,0 +1,23 @@
+# QA Process Documentation
+ 
+## Testing Methodology
+We follow an Agile testing process integrated within 2-week sprints.  
+Testing activities include unit testing, integration testing, regression testing, and exploratory testing.
+ 
+## Test Coverage
+Our automated test coverage is 65%. Manual test coverage for key features is 90%.  
+Critical path scenarios are covered in every release cycle.
+ 
+## Pass/Fail Criteria
+- All critical and high-severity defects must be resolved before release.  
+- Medium defects can be deferred if risk-assessed and approved by the QA Lead.  
+- No P1 or P2 open bugs allowed at release time.
+ 
+## Team Preparedness
+QA team consists of 4 automation engineers and 2 manual testers.  
+Automation framework: Playwright + TypeScript.  
+CI/CD integrated with GitHub Actions.
+ 
+## Risk and Mitigation
+Main risks include flaky tests and insufficient load testing.  
+Plans to improve load testing in next quarter.
